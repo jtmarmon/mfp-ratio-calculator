@@ -1,0 +1,14 @@
+{
+   "version": "1",
+   "manifest_version": 2,
+   "name": "My Fitness Pal Ratio Calculator",
+   "description": "Calculates fat/protein/carb ratio on my fitness pal",
+   "icons": {
+       "512": "mfp.png"
+   },
+   "content_scripts": [{
+       "js": [ "ratios.js" ],
+       "css": [ "ratios.css" ],
+       "matches": [ "http://www.myfitnesspal.com/food/diary" ]
+   }]
+}
