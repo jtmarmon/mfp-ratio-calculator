@@ -13,7 +13,7 @@ const htmlString = `
         <td> - </td>
         <td> ${calcRatio(carbs * 4)}% </td>
         <td> ${calcRatio(fat * 9)}% </td>
-        <td> ${calcRatio(protein * 9)}% </td>
+        <td> ${calcRatio(protein * 4)}% </td>
         <td> - </td>
         <td> - </td>
     </tr>
